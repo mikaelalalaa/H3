@@ -74,7 +74,9 @@ SELECT name, continent, population FROM world
 
 ![image](https://user-images.githubusercontent.com/93308960/200630006-937fe501-968c-46a2-be90-e80c8e91821e.png)
 
-2) Piti saada maitten nimet esille joiden väkiluku on vähintään 200 miljoonaa. Nimi saatiin esille 
+2) Piti saada maitten nimet esille joiden väkiluku on vähintään 200 miljoonaa. 
+
+
 
 Ratkaisu:
 
@@ -102,9 +104,9 @@ WHERE population>200000000
 ![image](https://user-images.githubusercontent.com/93308960/200631575-85a6627f-a450-4258-8da5-43c5f793ab7a.png)
 
 
-4) Piti saada maitten nimet väkiluku joka on jaettu 1000000 ja joiden maan osa on etelä amerikka.
+4) Piti saada maitten nimet väkiluku joka on jaettu 1000000 ja joiden maanosa on etelä amerikka.
 
-
+Sain hyvin ratkaistua sen miten tulosksena saadaan maitten nimet `SELECT name` ja miten se valitsee etelä amerikka maanosat `WHERE continent = 'Shout America`. Väkiluku oli vaikeempi osuus aluksi luulin että se pitäisi olla WHEREn kanssa, mutta sehän ei toiminut. Sain vastauksen tehtävää [weeblike](https://weeblike.weebly.com/select-from-world.html) sivulta.
 
 Ratkaisu:
 
