@@ -102,7 +102,7 @@ WHERE population>200000000
 ![image](https://user-images.githubusercontent.com/93308960/200631575-85a6627f-a450-4258-8da5-43c5f793ab7a.png)
 
 
-4) Piti saad
+4) Piti saada maitten nimet väkiluku joka on jaettu 1000000 ja joiden maan osa on etelä amerikka.
 
 
 
