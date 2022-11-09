@@ -147,12 +147,44 @@ WHERE name IN ('france', 'germany', 'italy')
 #### A1 Injection
 
 
+#### A2 Broken authentication
+
+
+![image](https://user-images.githubusercontent.com/93308960/200806221-86af7948-cab6-4edc-8dc5-a78352c4c562.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/200806781-10bbd94f-c61f-4d5e-b7cf-94a765f0cc82.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/200807254-c1920ff7-48d7-40a2-9bec-83714f5d7a72.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/200808155-ce83a53c-8acd-4b01-ac3f-01077e491b3d.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/93308960/200807383-36a30de8-8823-4805-94b7-f72a72d7e7a0.png)
+
+
 #### A3 Sensitive data exposure
 
+
+![image](https://user-images.githubusercontent.com/93308960/200793457-f6febc9e-c132-405d-92f1-e8c1fd33fad9.png)
 
 
 #### A7 Cross Site Scripting (XSS)
 
+![image](https://user-images.githubusercontent.com/93308960/200810596-1ea06f65-68d4-4293-885f-8c83208a6590.png)
+
+Testeistä oli jäänyt ; merkki jonka takia sivusto ei hyväksynyt sitä aikaisemmin
+
+![image](https://user-images.githubusercontent.com/93308960/200814134-f2a9b8da-dd91-4367-8196-6e861c4acfb0.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/200814191-305807f6-651a-46e5-86a2-89c9925563ff.png)
+
+![image](https://user-images.githubusercontent.com/93308960/200814228-b05769eb-2973-4689-abd2-e1fa41acda3a.png)
 
 
 #### A8:2013 Request Forgeries
