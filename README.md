@@ -189,3 +189,28 @@ Testeistä oli jäänyt ; merkki jonka takia sivusto ei hyväksynyt sitä aikais
 
 #### A8:2013 Request Forgeries
 
+![image](https://user-images.githubusercontent.com/93308960/200825878-e1f70fd3-31d7-4af8-b026-a7eceea1915e.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/200825740-2b32d85a-65af-4b52-a594-f2e0f6e51d9f.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/200825794-f6aee168-d284-4b57-ac11-5c0f49ea91e2.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/93308960/200832087-8c5098af-19fa-4605-bc2c-91fc2ce3e427.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/200832658-a8bfe0c8-a88e-4fa5-b035-79d372af1b3e.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/200835070-fd2a2b4f-8dad-4600-8613-c4dfa934ab20.png)
+
+![image](https://user-images.githubusercontent.com/93308960/200835797-5dd8ae4d-9335-47b6-86dc-bed81cfb1e6d.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/200836243-9e5bf5da-bf04-4195-a1be-b421d7d82c59.png)
+
+![image](https://user-images.githubusercontent.com/93308960/200836024-d7d95333-c5b7-4f8e-ab20-a6ebed30e02f.png)
