@@ -135,10 +135,13 @@ WHERE name IN ('france', 'germany', 'italy')
 
 ## b) Darn Low Security
 
+![image](https://user-images.githubusercontent.com/93308960/200851529-b373dcb9-3921-4561-ab61-8f3396d37b43.png)
 
 
 
 ## c) Execute! 
+
+
 
 
 
