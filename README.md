@@ -146,6 +146,24 @@ WHERE name IN ('france', 'germany', 'italy')
 
 #### A1 Injection
 
+![image](https://user-images.githubusercontent.com/93308960/200837134-ed1743a4-69e9-47e5-a187-7f3807852d58.png)
+
+![image](https://user-images.githubusercontent.com/93308960/200837632-2630cded-3981-429f-a064-15c898afa6da.png)
+
+![image](https://user-images.githubusercontent.com/93308960/200837872-5ecab5d9-afb5-4e29-880d-ca9a0c199758.png)
+
+![image](https://user-images.githubusercontent.com/93308960/200838160-92c3b63d-80aa-4ed5-aa6a-de7af7656cd4.png)
+
+![image](https://user-images.githubusercontent.com/93308960/200838673-9dd75de3-09e3-4fc9-8326-d39940f6a96a.png)
+
+![image](https://user-images.githubusercontent.com/93308960/200839530-eedffe66-8257-4450-a1fb-7a40de0d56e7.png)
+
+![image](https://user-images.githubusercontent.com/93308960/200842622-ac0fc328-68f3-42c0-a7be-d5f58f0b3573.png)
+
+
+![image](https://user-images.githubusercontent.com/93308960/200842522-2ed32fd3-0339-4dca-a626-c2ea76fe032d.png)
+
+![Uploading image.png…]()
 
 #### A2 Broken authentication
 
