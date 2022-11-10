@@ -1,14 +1,30 @@
 # H3
 
-
+Tehtävän annot löytyvät [opettajan](https://terokarvinen.com/2022/tunkeutumistestaus-ict4tn027-3010-syksylla-2022/#h3-select-pwned) sivulta
 
 ## x) Lue/katso/kuuntele ja tiivistä
 
 #### [OWASP TOP 10](https://terokarvinen.com/2022/tunkeutumistestaus-ict4tn027-3010-syksylla-2022/owasp-top-10-2017.pdf)
 
+* A2 Broken Authentication
+  * Credental stuffing sisältää tunnettuja salasanoja
+  * ei ole kirjautu ulos sivulta jolloin hyökkääjä käyttää samaa sivua ja edellinen on siltikin varmennettu
+* A3 Sensitive Data Exposure
+  * man-in-middle hyökkäys
+  * varastaa tietoa palvelimelta kun se liikkuu 
+  * brute force 
+* A7 Cross Site Scripting
+  *  syötetään skripti sivulle  
 
 
 #### [Percival & Samancioglu 2020: The Complete Ethical Hacking Course videot](https://learning.oreilly.com/videos/the-complete-ethical/9781839210495/9781839210495-video21_1/)
+
+* reflected xss
+  * manipuloidaan URL joka lähetetään uhreille 
+* stored xxs
+  * skritpi on sivun muistissa, kuka tahansa joka avaa sivun käynnistää skriptin automaattisesti.
+* Suojautumis tavat
+  * Google -> settings -> privacy -> content settings -> javascript pois päältä
 
 
 ## y) Cross site story
@@ -391,3 +407,7 @@ https://www.w3schools.com/tags/att_form_enctype.asp
 https://www.w3schools.com/sql/sql_injection.asp
 
 https://www.youtube.com/watch?v=C_-ea63FUto
+
+https://terokarvinen.com/2022/tunkeutumistestaus-ict4tn027-3010-syksylla-2022/owasp-top-10-2017.pdf
+
+https://learning.oreilly.com/videos/the-complete-ethical/9781839210495/9781839210495-video21_5/
