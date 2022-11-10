@@ -205,29 +205,45 @@ Avasin command execution sivun johon ajoin pari komentoa kuten:
 
 #### A2 Broken authentication
 
+Tehtävässä piti ohittaa turvakysymykset 
+
 *Tähän tehtävään latasin Burb suite nimisen ohjelman.* 
 
+ Avasin burp suten kautta selaimen webgoat sivun, tällöin heti sovellukseen tuli http historia. Tein aluksi tehtävän sivulla annetun mallin mukaan. 
  
+ Painoin sivulla submit painiketta ja menin takaisin burp sovellukseen. Huomasin POST pyynnön ja vein sen Repeater.
 
 ![image](https://user-images.githubusercontent.com/93308960/200806221-86af7948-cab6-4edc-8dc5-a78352c4c562.png)
 
+Koitin aluksi poistaa turvakysymykset mutta se ei onnistunut, niin kuin mallissa oltiin tehty.
 
 ![image](https://user-images.githubusercontent.com/93308960/200806781-10bbd94f-c61f-4d5e-b7cf-94a765f0cc82.png)
 
+Lisäsin kysymykset takaisin ja pähkäilyn jälkeen muokkaamalla turvakysymyksiä pääsee ohittamaan ne. Lisäsin a kirjaimen molempiin `secQuestion` sanaa
 
+```
+secQuestion0=abc&secQuestion1=abcd --> secQuestiona0=abc&secQuestiona1=abcd
+```
+ 
 ![image](https://user-images.githubusercontent.com/93308960/200807254-c1920ff7-48d7-40a2-9bec-83714f5d7a72.png)
 
+Menin takaisin http historia ja sieltä intercept välilehdelle jossa muokkasin kysymykset 
+
+```
+secQuestion0=abc&secQuestion1=abcd --> secQuestiona0=abc&secQuestiona1=abcd
+```
+Tämän jälkeen painoin Forward joka lähettää pyynnön sivulle.
 
 ![image](https://user-images.githubusercontent.com/93308960/200808155-ce83a53c-8acd-4b01-ac3f-01077e491b3d.png)
 
-
-
+Tämä onnistui ja saatiin ohitettua kysymykset
 
 ![image](https://user-images.githubusercontent.com/93308960/200807383-36a30de8-8823-4805-94b7-f72a72d7e7a0.png)
 
 
 #### A3 Sensitive data exposure
 
+Avasin devtool ja menin network välilehdelle. Tämän jälkeen klikkasin sivulla olevaa Log in, jolloin tuli uusi POST pyyntö. Sen pyynnön sisällä oli käyttäjä ja salasana 
 
 ![image](https://user-images.githubusercontent.com/93308960/200793457-f6febc9e-c132-405d-92f1-e8c1fd33fad9.png)
 
